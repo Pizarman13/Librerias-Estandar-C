@@ -8,4 +8,5 @@ add_executable(main "main.cpp")
 add_executable(mainB "mainB.cpp")
 add_executable(cadenasA "cadenasA.cpp")
 add_executable(cadenasB "cadenasB.cpp")
-add_executable(archivosA "archivosA.cpp")
+add_executable(archivos "archivos.cpp")
+

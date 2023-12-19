@@ -173,37 +173,37 @@ build cadenasB.exe: CXX_EXECUTABLE_LINKER__cadenasB_Debug CMakeFiles/cadenasB.di
   TARGET_PDB = cadenasB.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target archivosA
+# Object build statements for EXECUTABLE target archivos
 
 
 #############################################
-# Order-only phony target for archivosA
+# Order-only phony target for archivos
 
-build cmake_object_order_depends_target_archivosA: phony || CMakeFiles/archivosA.dir
+build cmake_object_order_depends_target_archivos: phony || CMakeFiles/archivos.dir
 
-build CMakeFiles/archivosA.dir/archivosA.cpp.obj: CXX_COMPILER__archivosA_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/archivosA.cpp || cmake_object_order_depends_target_archivosA
-  DEP_FILE = CMakeFiles\archivosA.dir\archivosA.cpp.obj.d
+build CMakeFiles/archivos.dir/archivos.cpp.obj: CXX_COMPILER__archivos_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/archivos.cpp || cmake_object_order_depends_target_archivos
+  DEP_FILE = CMakeFiles\archivos.dir\archivos.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\archivosA.dir
-  OBJECT_FILE_DIR = CMakeFiles\archivosA.dir
+  OBJECT_DIR = CMakeFiles\archivos.dir
+  OBJECT_FILE_DIR = CMakeFiles\archivos.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target archivosA
+# Link build statements for EXECUTABLE target archivos
 
 
 #############################################
-# Link the executable archivosA.exe
+# Link the executable archivos.exe
 
-build archivosA.exe: CXX_EXECUTABLE_LINKER__archivosA_Debug CMakeFiles/archivosA.dir/archivosA.cpp.obj
+build archivos.exe: CXX_EXECUTABLE_LINKER__archivos_Debug CMakeFiles/archivos.dir/archivos.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\archivosA.dir
+  OBJECT_DIR = CMakeFiles\archivos.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = archivosA.exe
-  TARGET_IMPLIB = libarchivosA.dll.a
-  TARGET_PDB = archivosA.exe.dbg
+  TARGET_FILE = archivos.exe
+  TARGET_IMPLIB = libarchivos.dll.a
+  TARGET_PDB = archivos.exe.dbg
 
 
 #############################################
@@ -231,7 +231,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build archivosA: phony archivosA.exe
+build archivos: phony archivos.exe
 
 build cadenasA: phony cadenasA.exe
 
@@ -249,7 +249,7 @@ build mainB: phony mainB.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug
 
-build all: phony main.exe mainB.exe cadenasA.exe cadenasB.exe archivosA.exe
+build all: phony main.exe mainB.exe cadenasA.exe cadenasB.exe archivos.exe
 
 # =============================================================================
 # Built-in targets

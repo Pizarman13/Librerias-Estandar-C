@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "archivosA.exe"
+			"path" : "archivos.exe"
 		},
 		{
-			"path" : "archivosA.pdb"
+			"path" : "archivos.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "archivosA::@6890427a1f51a3e7e1df",
+	"id" : "archivos::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "archivosA",
-	"nameOnDisk" : "archivosA.exe",
+	"name" : "archivos",
+	"nameOnDisk" : "archivos.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "archivosA.cpp",
+			"path" : "archivos.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
