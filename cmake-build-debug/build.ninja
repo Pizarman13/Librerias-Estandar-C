@@ -172,6 +172,39 @@ build cadenasB.exe: CXX_EXECUTABLE_LINKER__cadenasB_Debug CMakeFiles/cadenasB.di
   TARGET_IMPLIB = libcadenasB.dll.a
   TARGET_PDB = cadenasB.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target archivosA
+
+
+#############################################
+# Order-only phony target for archivosA
+
+build cmake_object_order_depends_target_archivosA: phony || CMakeFiles/archivosA.dir
+
+build CMakeFiles/archivosA.dir/archivosA.cpp.obj: CXX_COMPILER__archivosA_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/archivosA.cpp || cmake_object_order_depends_target_archivosA
+  DEP_FILE = CMakeFiles\archivosA.dir\archivosA.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\archivosA.dir
+  OBJECT_FILE_DIR = CMakeFiles\archivosA.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target archivosA
+
+
+#############################################
+# Link the executable archivosA.exe
+
+build archivosA.exe: CXX_EXECUTABLE_LINKER__archivosA_Debug CMakeFiles/archivosA.dir/archivosA.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\archivosA.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = archivosA.exe
+  TARGET_IMPLIB = libarchivosA.dll.a
+  TARGET_PDB = archivosA.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,6 +231,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build archivosA: phony archivosA.exe
+
 build cadenasA: phony cadenasA.exe
 
 build cadenasB: phony cadenasB.exe
@@ -214,7 +249,7 @@ build mainB: phony mainB.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug
 
-build all: phony main.exe mainB.exe cadenasA.exe cadenasB.exe
+build all: phony main.exe mainB.exe cadenasA.exe cadenasB.exe archivosA.exe
 
 # =============================================================================
 # Built-in targets
