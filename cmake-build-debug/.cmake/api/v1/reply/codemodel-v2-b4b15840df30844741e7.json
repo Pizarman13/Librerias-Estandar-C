@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "cadenasA::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-cadenasA-Debug-3f2c018b5555113428db.json",
 					"name" : "cadenasA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cadenasB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cadenasB-Debug-0e32bde49cd6de0860e2.json",
+					"name" : "cadenasB",
 					"projectIndex" : 0
 				},
 				{

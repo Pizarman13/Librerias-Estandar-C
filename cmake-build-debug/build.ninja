@@ -139,6 +139,39 @@ build cadenasA.exe: CXX_EXECUTABLE_LINKER__cadenasA_Debug CMakeFiles/cadenasA.di
   TARGET_IMPLIB = libcadenasA.dll.a
   TARGET_PDB = cadenasA.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cadenasB
+
+
+#############################################
+# Order-only phony target for cadenasB
+
+build cmake_object_order_depends_target_cadenasB: phony || CMakeFiles/cadenasB.dir
+
+build CMakeFiles/cadenasB.dir/cadenasB.cpp.obj: CXX_COMPILER__cadenasB_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cadenasB.cpp || cmake_object_order_depends_target_cadenasB
+  DEP_FILE = CMakeFiles\cadenasB.dir\cadenasB.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cadenasB.dir
+  OBJECT_FILE_DIR = CMakeFiles\cadenasB.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cadenasB
+
+
+#############################################
+# Link the executable cadenasB.exe
+
+build cadenasB.exe: CXX_EXECUTABLE_LINKER__cadenasB_Debug CMakeFiles/cadenasB.dir/cadenasB.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cadenasB.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cadenasB.exe
+  TARGET_IMPLIB = libcadenasB.dll.a
+  TARGET_PDB = cadenasB.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,6 +200,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cadenasA: phony cadenasA.exe
 
+build cadenasB: phony cadenasB.exe
+
 build main: phony main.exe
 
 build mainB: phony mainB.exe
@@ -179,7 +214,7 @@ build mainB: phony mainB.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug
 
-build all: phony main.exe mainB.exe cadenasA.exe
+build all: phony main.exe mainB.exe cadenasA.exe cadenasB.exe
 
 # =============================================================================
 # Built-in targets
