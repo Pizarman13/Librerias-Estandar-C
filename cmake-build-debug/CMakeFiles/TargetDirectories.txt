@@ -1,3 +1,4 @@
-C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug/CMakeFiles/Librerias_Estandar_C.dir
+C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug/CMakeFiles/mainB.dir
 C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
