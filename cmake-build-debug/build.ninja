@@ -106,6 +106,39 @@ build mainB.exe: CXX_EXECUTABLE_LINKER__mainB_Debug CMakeFiles/mainB.dir/mainB.c
   TARGET_IMPLIB = libmainB.dll.a
   TARGET_PDB = mainB.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cadenasA
+
+
+#############################################
+# Order-only phony target for cadenasA
+
+build cmake_object_order_depends_target_cadenasA: phony || CMakeFiles/cadenasA.dir
+
+build CMakeFiles/cadenasA.dir/cadenasA.cpp.obj: CXX_COMPILER__cadenasA_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cadenasA.cpp || cmake_object_order_depends_target_cadenasA
+  DEP_FILE = CMakeFiles\cadenasA.dir\cadenasA.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cadenasA.dir
+  OBJECT_FILE_DIR = CMakeFiles\cadenasA.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cadenasA
+
+
+#############################################
+# Link the executable cadenasA.exe
+
+build cadenasA.exe: CXX_EXECUTABLE_LINKER__cadenasA_Debug CMakeFiles/cadenasA.dir/cadenasA.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cadenasA.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cadenasA.exe
+  TARGET_IMPLIB = libcadenasA.dll.a
+  TARGET_PDB = cadenasA.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build cadenasA: phony cadenasA.exe
+
 build main: phony main.exe
 
 build mainB: phony mainB.exe
@@ -144,7 +179,7 @@ build mainB: phony mainB.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Librerias-Estandar-C/cmake-build-debug
 
-build all: phony main.exe mainB.exe
+build all: phony main.exe mainB.exe cadenasA.exe
 
 # =============================================================================
 # Built-in targets
